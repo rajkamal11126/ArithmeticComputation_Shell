@@ -11,3 +11,4 @@ read c
 compute=$((a+b*c))
 compute=$((a*b+c))
 compute=$((a+b/c))
+compute=$((a%b+c))
