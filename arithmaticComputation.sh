@@ -12,3 +12,6 @@ compute=$((a+b*c))
 compute=$((a*b+c))
 compute=$((a+b/c))
 compute=$((a%b+c))
+
+echo ${compute[@]}
+echo ${!compute[@]}
