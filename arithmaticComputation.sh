@@ -23,3 +23,6 @@ do
 done
 
 echo "Array:"${result[@]}
+
+sorting1=($(echo ${compute[@]} | tr " " "\n" | sort -nr))
+echo "Descending Order: ${sorting1[@]}"
